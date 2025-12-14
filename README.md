@@ -6,4 +6,4 @@ Site institucional para LS Climatização - Serviços de ar-condicionado, móvei
 
 **Desenvolvido por Samuel Roberto**
 
-© 2024 Todos os direitos reservados.
+© 2025 Todos os direitos reservados.
