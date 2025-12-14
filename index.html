@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="LS Climatização - Instalação, manutenção e higienização de ar-condicionado em Lajeado/RS e região. Atendimento rápido, garantia e orçamento sem compromisso.">
+    <meta name="keywords"
+        content="ar-condicionado, instalação, manutenção, higienização, Lajeado, RS, climatização, split, conserto">
+    <meta name="author" content="Lucas Scherne">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="LS Climatização - Ar-condicionado em Lajeado/RS">
+    <meta property="og:description"
+        content="Instalação, manutenção e higienização de ar-condicionado. Atendimento rápido com garantia.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="https://lsclimatizacao.com.br">
+
+    <title>LS Climatização | Ar-condicionado em Lajeado/RS - Instalação, Manutenção e Higienização</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>❄️</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "LS Climatização",
+        "description": "Instalação, manutenção, higienização e conserto de ar-condicionado em Lajeado/RS e região.",
+        "url": "https://lsclimatizacao.com.br",
+        "telephone": "+5551996926103",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Lajeado",
+            "addressRegion": "RS",
+            "addressCountry": "BR"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "-29.4669",
+            "longitude": "-51.9614"
+        },
+        "areaServed": [
+            "Lajeado",
+            "Estrela",
+            "Teutônia",
+            "Arroio do Meio",
+            "Encantado",
+            "Colinas",
+            "Bom Retiro do Sul",
+            "Cruzeiro do Sul",
+            "Santa Clara do Sul"
+        ],
+        "serviceType": [
+            "Instalação de ar-condicionado",
+            "Manutenção de ar-condicionado",
+            "Higienização de ar-condicionado",
+            "Recarga de gás",
+            "Conserto de ar-condicionado",
+            "Montagem de móveis",
+            "Serviços elétricos",
+            "Conserto de eletrodomésticos",
+            "Instalação de câmeras e alarmes"
+        ],
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "08:00",
+                "closes": "18:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "opens": "08:00",
+                "closes": "12:00"
+            }
+        ]
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-content">
+            <a href="#" class="logo">
+                <span class="logo-icon">❄️</span>
+                <span class="logo-text">LS <span>Climatização</span></span>
+            </a>
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                    <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+                    <li><a href="#cobertura" class="nav-link">Cobertura</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                </ul>
+            </nav>
+            <a href="https://wa.me/5551996926103?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento."
+                class="btn btn-whatsapp header-cta" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path
+                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+                WhatsApp
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Instalação e Manutenção de <span class="highlight">Ar-condicionado</span> em Lajeado/RS</h1>
+                <p class="hero-subtitle">Serviços profissionais com garantia, atendimento rápido e orçamento sem
+                    compromisso. Trabalhamos também com montagem de móveis, serviços elétricos, consertos e câmeras de
+                    segurança.</p>
+
+                <div class="hero-badges">
+                    <div class="badge">
+                        <span class="badge-icon">⚡</span>
+                        <span>Atendimento Rápido</span>
+                    </div>
+                    <div class="badge">
+                        <span class="badge-icon">✅</span>
+                        <span>Garantia de Serviço</span>
+                    </div>
+                    <div class="badge">
+                        <span class="badge-icon">💬</span>
+                        <span>Orçamento Grátis</span>
+                    </div>
+                </div>
+
+                <div class="hero-ctas">
+                    <a href="https://wa.me/5551996926103?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento."
+                        class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+                        <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                        Chamar no WhatsApp
+                    </a>
+                    <a href="#servicos" class="btn btn-outline btn-lg">Ver Serviços</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/IMG-20251213-WA0021.jpg" alt="Instalação de ar-condicionado profissional"
+                    loading="eager">
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section class="services" id="servicos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <p>Soluções completas em climatização, elétrica, móveis e segurança para sua casa ou empresa</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Ar-condicionado -->
+                <div class="service-card">
+                    <div class="service-icon">❄️</div>
+                    <h3>Instalação de Ar-condicionado</h3>
+                    <p>Instalação profissional de splits, multi-splits e ar-condicionado de janela. Residencial e
+                        comercial.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🛠️</div>
+                    <h3>Manutenção Preventiva</h3>
+                    <p>Manutenção regular para garantir o funcionamento eficiente e prolongar a vida útil do
+                        equipamento.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🧹</div>
+                    <h3>Higienização e Limpeza</h3>
+                    <p>Limpeza técnica completa para eliminar fungos, bactérias e garantir ar puro para sua família.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💨</div>
+                    <h3>Recarga de Gás</h3>
+                    <p>Recarga e verificação de vazamentos com gás de qualidade para seu ar-condicionado voltar a gelar.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Conserto e Diagnóstico</h3>
+                    <p>Identificação e reparo de problemas. Não está gelando? Fazendo barulho? Resolvemos!</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔌</div>
+                    <h3>Desinstalação</h3>
+                    <p>Remoção segura do ar-condicionado para mudanças ou troca de equipamento.</p>
+                </div>
+
+                <!-- Móveis -->
+                <div class="service-card">
+                    <div class="service-icon">🪑</div>
+                    <h3>Montagem de Móveis</h3>
+                    <p>Montagem profissional de móveis novos. Rapidez e organização garantidas.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📐</div>
+                    <h3>Móveis Sob Medida</h3>
+                    <p>Projetos personalizados de móveis sob medida para otimizar seus espaços.</p>
+                </div>
+
+                <!-- Elétrica -->
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Elétrica Geral</h3>
+                    <p>Serviços elétricos residenciais e comerciais. Instalações, reparos e manutenções.</p>
+                </div>
+
+                <!-- Consertos -->
+                <div class="service-card">
+                    <div class="service-icon">🔩</div>
+                    <h3>Conserto de Eletrodomésticos</h3>
+                    <p>Reparo de máquinas de lavar, micro-ondas e geladeiras. Diagnóstico e conserto.</p>
+                </div>
+
+                <!-- Segurança -->
+                <div class="service-card">
+                    <div class="service-icon">📹</div>
+                    <h3>Câmeras de Segurança</h3>
+                    <p>Instalação de câmeras e sistemas de monitoramento. Segurança para seu patrimônio.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🚨</div>
+                    <h3>Alarmes</h3>
+                    <p>Sistemas de alarme residencial e comercial. Proteção 24 horas.</p>
+                </div>
+            </div>
+
+            <div class="services-cta">
+                <a href="https://wa.me/5551996926103?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento."
+                    class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+                    <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    Solicitar Orçamento
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria Section -->
+    <section class="gallery" id="galeria">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Trabalhos</h2>
+                <p>Confira alguns dos nossos serviços realizados em Lajeado e região</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-index="0">
+                    <img src="assets/IMG-20251213-WA0015.jpg" alt="Serviço de instalação de ar-condicionado"
+                        loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ver foto</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="1">
+                    <img src="assets/IMG-20251213-WA0016.jpg" alt="Manutenção de ar-condicionado" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ver foto</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="2">
+                    <img src="assets/IMG-20251213-WA0017.jpg" alt="Higienização de ar-condicionado" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ver foto</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="3">
+                    <img src="assets/IMG-20251213-WA0019.jpg" alt="Instalação profissional" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ver foto</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="4">
+                    <img src="assets/IMG-20251213-WA0020.jpg" alt="Serviço de climatização" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ver foto</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="5">
+                    <img src="assets/IMG-20251213-WA0022.jpg" alt="Trabalho realizado" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ver foto</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="6">
+                    <img src="assets/IMG-20251213-WA0023.jpg" alt="Instalação residencial" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ver foto</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="7">
+                    <img src="assets/IMG-20251213-WA0024.jpg" alt="Serviço profissional" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ver foto</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="8">
+                    <img src="assets/IMG-20251213-WA0025.jpg" alt="Manutenção preventiva" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ver foto</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="9">
+                    <img src="assets/IMG-20251213-WA0026.jpg" alt="Trabalho de qualidade" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ver foto</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="10">
+                    <img src="assets/IMG-20251213-WA0027.jpg" alt="Serviço concluído" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ver foto</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="11">
+                    <img src="assets/IMG-20251213-WA0028.jpg" alt="Instalação comercial" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ver foto</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="12">
+                    <img src="assets/IMG-20251213-WA0029.jpg" alt="Ar-condicionado instalado" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ver foto</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="13">
+                    <img src="assets/IMG-20251213-WA0030.jpg" alt="Serviço finalizado" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ver foto</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="14">
+                    <img src="assets/IMG-20251213-WA0031.jpg" alt="Trabalho profissional" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ver foto</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualização de imagem">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Fechar">&times;</button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Imagem anterior">&#10094;</button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Próxima imagem">&#10095;</button>
+        <img src="" alt="" class="lightbox-img" id="lightboxImg">
+    </div>
+
+    <!-- Depoimentos Section -->
+    <section class="testimonials" id="depoimentos">
+        <div class="container">
+            <div class="section-header">
+                <h2>O que nossos clientes dizem</h2>
+                <p>Confira a opinião de quem já contratou nossos serviços</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Excelente profissional! Instalou meu ar-condicionado rapidinho e deixou
+                        tudo limpo. Super recomendo."</p>
+                    <p class="testimonial-author">Mariana S. — Lajeado/RS</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Fez a manutenção do ar da empresa e ficou gelando como novo. Pontual e
+                        honesto no preço."</p>
+                    <p class="testimonial-author">Carlos R. — Estrela/RS</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Precisei de uma higienização urgente e ele conseguiu atender no mesmo
+                        dia. Trabalho impecável!"</p>
+                    <p class="testimonial-author">Fernanda L. — Teutônia/RS</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Já é a terceira vez que chamo o Lucas. Sempre resolve o problema e
+                        explica tudo direitinho."</p>
+                    <p class="testimonial-author">Roberto M. — Arroio do Meio/RS</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Meu ar não estava gelando e ele identificou que era vazamento de gás.
+                        Consertou na hora. Top!"</p>
+                    <p class="testimonial-author">Ana Paula T. — Encantado/RS</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Ótimo atendimento! Montou os móveis da sala toda e ainda instalou o ar
+                        do quarto."</p>
+                    <p class="testimonial-author">João Pedro K. — Lajeado/RS</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Profissional muito capacitado. Instalou as câmeras de segurança da
+                        minha loja rapidamente."</p>
+                    <p class="testimonial-author">Patrícia V. — Colinas/RS</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Fez a parte elétrica da minha casa nova. Trabalho organizado e preço
+                        justo."</p>
+                    <p class="testimonial-author">Marcos A. — Bom Retiro do Sul/RS</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Consertou minha máquina de lavar que ninguém queria arrumar. Está
+                        funcionando perfeitamente!"</p>
+                    <p class="testimonial-author">Luciana F. — Cruzeiro do Sul/RS</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Atendimento excelente! Desinstalou o ar do apartamento antigo e
+                        instalou no novo. Perfeito!"</p>
+                    <p class="testimonial-author">Gustavo H. — Lajeado/RS</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Muito educado e profissional. Fez a limpeza do ar e já agendei a
+                        manutenção semestral."</p>
+                    <p class="testimonial-author">Cláudia B. — Santa Clara do Sul/RS</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Preço honesto e trabalho bem feito. Indicação mais que merecida!"</p>
+                    <p class="testimonial-author">Ricardo N. — Estrela/RS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Área de Cobertura Section -->
+    <section class="coverage" id="cobertura">
+        <div class="container">
+            <div class="section-header">
+                <h2>Área de Atendimento</h2>
+                <p>Atendemos <strong>Lajeado/RS</strong> e toda a região do Vale do Taquari</p>
+            </div>
+
+            <div class="coverage-content">
+                <div class="coverage-cities">
+                    <h3>Cidades Atendidas</h3>
+                    <ul class="cities-list">
+                        <li>🏠 Lajeado</li>
+                        <li>🏠 Estrela</li>
+                        <li>🏠 Teutônia</li>
+                        <li>🏠 Arroio do Meio</li>
+                        <li>🏠 Encantado</li>
+                        <li>🏠 Colinas</li>
+                        <li>🏠 Bom Retiro do Sul</li>
+                        <li>🏠 Cruzeiro do Sul</li>
+                        <li>🏠 Santa Clara do Sul</li>
+                        <li>🏠 Roca Sales</li>
+                        <li>🏠 Marques de Souza</li>
+                        <li>🏠 Forquetinha</li>
+                    </ul>
+                    <p class="coverage-note">Atende outra cidade da região? <strong>Entre em contato</strong> para
+                        verificar disponibilidade!</p>
+                </div>
+
+                <div class="coverage-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55283.14657545879!2d-51.99622!3d-29.4669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951c5c6a5c8b5a9d%3A0x3c5e8c5a5c8b5a9d!2sLajeado%2C%20RS!5e0!3m2!1spt-BR!2sbr!4v1702500000000!5m2!1spt-BR!2sbr"
+                        width="100%" height="400" style="border:0; border-radius: 12px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa de Lajeado/RS">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Perguntas Frequentes</h2>
+                <p>Tire suas dúvidas sobre nossos serviços</p>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Qual o valor da instalação do ar-condicionado?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>O valor varia conforme o modelo do equipamento, BTUs e complexidade da instalação. Entre em
+                            contato pelo WhatsApp para um orçamento personalizado e sem compromisso!</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Vocês atendem aos finais de semana?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Atendemos aos sábados pela manhã (8h às 12h). Para emergências aos domingos, entre em contato
+                            pelo WhatsApp para verificar disponibilidade.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Com que frequência devo fazer a higienização?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Recomenda-se fazer a higienização completa a cada 6 meses para manter a qualidade do ar e o
+                            bom funcionamento do equipamento. Em ambientes com mais poeira ou uso intenso, pode ser
+                            necessário a cada 3-4 meses.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Vocês dão garantia no serviço?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim! Oferecemos garantia em todos os serviços realizados. O prazo varia conforme o tipo de
+                            serviço. Instalações têm garantia de 90 dias para mão de obra.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Meu ar-condicionado não gela, o que pode ser?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Pode ser falta de gás, filtros sujos, problemas no compressor ou na placa eletrônica. O ideal
+                            é fazer um diagnóstico para identificar o problema exato. Entre em contato para agendar uma
+                            visita técnica.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Vocês trabalham com todas as marcas?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim! Trabalhamos com todas as marcas do mercado: LG, Samsung, Electrolux, Springer, Midea,
+                            Consul, Philco, Elgin, entre outras.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Quanto tempo demora uma instalação?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Uma instalação padrão leva em média 2 a 4 horas, dependendo da infraestrutura do local.
+                            Instalações mais complexas podem levar um pouco mais.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Vocês fazem orçamento antes do serviço?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim! Sempre fazemos orçamento prévio sem compromisso. Para serviços simples, conseguimos
+                            passar o valor pelo WhatsApp. Para casos mais complexos, agendamos uma visita técnica.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Quais formas de pagamento vocês aceitam?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Aceitamos Pix, dinheiro e transferência bancária. Para alguns serviços, também é possível
+                            parcelar. Consulte as condições pelo WhatsApp.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final Section -->
+    <section class="cta-final">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Precisa de um serviço?</h2>
+                <p>Entre em contato agora mesmo pelo WhatsApp e solicite seu orçamento sem compromisso!</p>
+                <a href="https://wa.me/5551996926103?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento."
+                    class="btn btn-whatsapp btn-xl" target="_blank" rel="noopener">
+                    <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    Chamar no WhatsApp Agora
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">❄️</span>
+                        <span class="logo-text">LS <span>Climatização</span></span>
+                    </a>
+                    <p>Serviços de climatização, elétrica, móveis e segurança em Lajeado/RS e região.</p>
+                </div>
+
+                <div class="footer-info">
+                    <h4>Horário de Atendimento</h4>
+                    <p>Segunda a Sexta: 8h às 18h</p>
+                    <p>Sábado: 8h às 12h</p>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <a href="https://wa.me/5551996926103?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento."
+                        class="btn btn-whatsapp" target="_blank" rel="noopener">
+                        <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                        WhatsApp
+                    </a>
+                    <p class="footer-location">📍 Lajeado/RS e região</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 LS Climatização - Lucas Scherne. Todos os direitos reservados.</p>
+                <p class="lgpd-notice">Este site não coleta dados pessoais. Ao clicar no WhatsApp, você será direcionado
+                    ao aplicativo.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5551996926103?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento."
+        class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
